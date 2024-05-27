@@ -14,15 +14,20 @@ Technical Details
 7. Functions Used: WorksheetFunction.Match, WorksheetFunction.CountA, WorksheetFunction.Unique
 
 Usage
+
 Setup:
 -> Open the workbook VBA Code Split Data.xlsm.
+
 -> Ensure that the data to be split is in Sheet1.
 
 Using the Form Control Button:
 -> A Form Control button is included in the worksheet to trigger the split_data2 macro.
+
 -> Click the button to execute the data splitting process.
 
 Execution:
 -> The macro will create new worksheets named after each unique value found in the specified column.
+
 -> Filtered data for each unique value will be copied into the corresponding worksheet.
+
 -> A temporary worksheet unique_values is created and deleted after the process is completed.
